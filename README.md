@@ -20,5 +20,19 @@ O objetivo desse projeto é o usuário fazer o cadastro de uma pessoa e também 
   - HTML.
   - CSS.
   - Bootstrap.
-
+  
+## Validações
+  O sistema faz todo tipo de validações, seja dos campos de formulário, até ao excluir um cadastro exibe uma mensagem se o usuário deseja mesmo excluir.
+  
 ## Layout 
+![FireShot Capture 012 - Cadastro de Pessoas - localhost](https://user-images.githubusercontent.com/63206031/160291242-e4dc31fa-83c9-4bfa-8260-01a62fdb632d.png)
+![FireShot Capture 014 - Cadastro de Pessoas - localhost](https://user-images.githubusercontent.com/63206031/160291247-9cc7c65c-3a88-42af-b7ae-8b4459f30ebf.png)
+
+## Sobre autor
+
+<div align="center"> 
+  <a href="https://instagram.com/gabrielhcardoso_" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href = "mailto:gabrielcardsantos2016@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/gabrielcardos0/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+ 
+</div>
