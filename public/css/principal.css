@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0;
+}
+a {
+	text-decoration:none;
+}
+a img {
+	border:none;
+}
+body {
+	font-size:14px;
+	background-color: #EDEDED;
+	padding-bottom: 50px;
+}
+input {
+	font-size:14px;
+}
+.navbar{
+	background-color: #6002ee !important;
+	padding: 5px 15px;
+	z-index: 10;
+	height: 60px;
+}
+@media all and (max-width: 600px){
+	.navbar{
+		background-color: #6002ee !important;
+		padding: 5px 15px;
+		z-index: 10;
+		height: auto;
+	}
+	.nav-link{
+		border-radius: 0 !important;
+		margin: 10px 0 !important;
+		text-align: center;
+		width: 100%;
+	}
+}
+.navbar-brand{
+	color: #FFFF !important;
+	font-weight: bolder;
+	font-size: 1em;
+}
+.nav-link{
+	background-color: #FFF;
+	border-radius: 1em;
+	margin:  15px;
+	color: #000 !important;
+	font-weight: 700;
+	font-size: 15px;
+}
+#conteudoGeral {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+#baixoGeral {
+	margin:15px auto 0 auto;
+	width: 80%;
+	padding: 30px 10px;
+	border-radius: 1em;
+	background: rgba(182, 181, 181, 0.35);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+}
+
+#conteudoDir {
+	width:100%;
+	display: block;
+	margin:0 auto;
+	padding:15px;
+}
+#conteudoDir input{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+#listaPessoas {
+    width: 100%;
+}
+#listaPessoas h1 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 900;
+	color: #000;
+	padding:0 0 5px 0;
+	margin:0 0 15px 0;
+}
+.linkUser{
+	color: #FFF !important;
+	font-weight: 700;
+}
+
+.btVerde {
+	display:block;
+	height:12px;
+	width:12px;
+	background-image:url(../images/imgBolaVerde.png);
+}
+.btCinza {
+	display:block;
+	height:12px;
+	width:12px;
+	background-image:url(../images/imgBolaCinza.png);
+}
+.btSeta1 {
+	display:block;
+	height:17px;
+	width:13px;
+	background-image:url(../images/imgSetasGrandes.png);
+	float:left;
+	margin:3px;
+}
+.btSeta2 {
+	display:block;
+	height:17px;
+	width:13px;
+	background-image:url(../images/imgSetasGrandes.png);
+	background-position:13px 0;
+	float:left;
+	margin:3px;
+}
+#pags {
+	float:left;
+        margin-top: 3px;
+}
+#paginacao {
+	border-top:1px solid #c8c8c8;
+	margin:15px 0 0 0;
+	padding:5px 0 0 0;
+}
+#paginacao select {
+    margin-top: 2px;
+    margin-left: 3px;
+}
+#paginas {
+	float:left;
+}
+.linkUser {
+	color:#4d4d4d;
+}
+.linkUser:hover {
+	text-decoration:underline;
+}
+#formCadastrar label {
+	font-size: 15px;
+	padding:0 0 0 6px;
+	color: #000;
+}
+.invalid-feedback{
+	font-size: 15px;
+	font-weight: 900;
+	background-color: rgba(255, 255, 255, 0.719);
+	border-radius: 1em;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.btn-primary {
+	margin: 50px auto 0 auto;
+	width: 60%;
+	display: block;
+}
+.btnAddDependentes{
+	background-color: #6002ee;
+	border: 0;
+	color: #FFF;
+}
+.btPadraoExcluir {
+	display:block;
+	width:100px;
+	line-height:30px;
+	text-align:center;
+	background-color:rgb(238, 50, 50);
+	margin:0 0 15px 0;
+	font-weight: 700;
+	border-radius: 1em;
+	color: #FFF;
+}
+.btPadraoExcluir:hover {
+	color: #FFF;
+	background-color:rgb(233, 57, 57);
+
+}
+.btAdicionar {
+    display:block;
+    height:16px;
+    width:16px;
+    background-image:url(../images/btAdd.png);
+}
+.btRemover {
+    display:block;
+    height:16px;
+    width:16px;
+    background-image:url(../images/btRemover.png);    
+}
+
+#fotoCadastro {  
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+#fotoCadastro table{
+	align-self: center;
+}
+#fotoCadastro img {
+	border: 2px solid #000;
+	border-radius: 2em;
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+}
+#tListaCad td{
+	font-weight: 800;
+}
+#frmAdicionaDep {
+	margin: 30px 0;
+	width: 100%;
+	padding: 15px 5%;
+	border: 1px solid #5f5f5f;
+	border-radius: 1em;
+}
+#frmAdicionaDep form{
+	display: grid;
+	width: 100%;
+	gap: 15px;
+	grid-template-columns: 2fr 2fr 1fr;
+}
+#frmAdicionaDep button{
+	width: 10rem;
+	height: 70%;
+	margin: 0 15%;
+	align-self: center;
+	border-radius: 1em;
+}
+#cFoto {
+    background: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
